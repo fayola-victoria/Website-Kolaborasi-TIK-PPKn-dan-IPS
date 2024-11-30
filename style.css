@@ -1,0 +1,44 @@
+.header{
+    width: 1280px;
+    position: fixed;
+}
+/* kode css navigator */
+ul{
+    list-style: none;
+    background: antiquewhite;
+    padding: 0px 0px;
+    margin: 120px 0px;
+    position: fixed;
+    width: 1280px;
+    height: 60px;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+ul li a{
+    padding: 10px 0px;
+    text-align: center;
+}
+ul a:hover{
+    background-color: antiquewhite;
+}
+/* kode css dropdown */
+ul li ul.dropdown{
+    background: #295846;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+/* kode css side bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
